@@ -40,7 +40,7 @@ public class Juego {
             int numero = (int) (Math.random() * largo);
             System.out.println(numero);
             combinacionSecreta[i] = ficha[numero];
-            System.out.prinln (combinacionSecreta[i]);
+            System.out.println (combinacionSecreta[i]);
         }
     }
 }

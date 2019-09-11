@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4d204b-23fe-4ff0-9074-db66cc065ef6" name="Default Changelist" comment="Creacion de clases para Combinacion">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Combination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/SecretCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/UserCombination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MasterMind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MasterMind.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,7 @@
       <updated>1568040597247</updated>
       <workItem from="1568040606009" duration="5475000" />
       <workItem from="1568060692490" duration="1403000" />
-      <workItem from="1568189766649" duration="4170000" />
+      <workItem from="1568189766649" duration="5514000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion de clases para Combinacion">
       <created>1568227442474</created>

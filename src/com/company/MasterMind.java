@@ -5,20 +5,22 @@ public class MasterMind {
     private Result result;
     private SecretCombination secretCombination;
     private UserCombination userCombination;
+    private GameView gameView;
+    private GameModel gameModel;
     int ancho = 5;
     int largo = 10;
 
 
 
     private void play(){
-        construirTablero();
+        do {
+            secretCombination = new SecretCombination();
+            userCombination = new UserCombination();
+            secretCombination.compare(userCombination);
 
+        } while (!seguir);
     }
 
-    private  void construirTablero(int largo) {
-        int numero = (int) (Math.random() * largo+1);
-        System.out.println (numero);
-    }
     public static void main(String[] args) {
         new MasterMind().play();
     }

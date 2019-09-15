@@ -2,23 +2,17 @@ package com.company;
 
 public class MasterMind {
 
-    private Result result;
-    private SecretCombination secretCombination;
-    private UserCombination userCombination;
-    private GameView gameView;
-    private GameModel gameModel;
-    int ancho = 5;
-    int largo = 10;
+  private View view;
+  private Game game;
 
 
-
+  private MasterMind() {
+	  this.game = new Game();
+	  this.view = new View(this.game);
+  }
+  
     private void play(){
-        do {
-            secretCombination = new SecretCombination();
-            userCombination = new UserCombination();
-            secretCombination.compare(userCombination);
-
-        } while (!seguir);
+    	view.interact();
     }
 
     public static void main(String[] args) {
